@@ -18,10 +18,14 @@ body{
     padding: 10px;
 }
 
-#rodape{
+.centralizar{
     text-align: center;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
+}
+
+.moldura_imagens{
+    border: 10px solid #c3c3ae;
 }
 
 a{
@@ -29,4 +33,9 @@ a{
     text-decoration: none;
     font-weight: bold;
     padding: 5px;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
 }
