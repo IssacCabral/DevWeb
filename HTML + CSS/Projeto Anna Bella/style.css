@@ -1,0 +1,32 @@
+body{
+    background: #d2d2c1 url(images/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#div_principal{
+    width: 900px;
+    /*border: 1px solid red;*/
+}
+
+#cabecalho_menu{
+    background-color: #c5c5b2;
+    padding: 18px;
+}
+
+#conteudo{
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
