@@ -1,0 +1,39 @@
+body{
+    background: #f5f0d0;
+    font: 16px Snell Roundhand, cursive;
+}
+
+a{
+    /*color:#46ac32;*/
+    color: rgb(220, 233, 48);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+#container_principal{
+    width: 900px;
+}
+
+#cabecalho_menu{
+    padding: 18px;
+    background-color: #1d180e;
+}
+
+#conteudo{
+    background-color:#ffffff;
+    padding: 10px;
+}
+
+.titulo{
+    color:rgb(145, 137, 26);
+}
+
+.moldura_imagens{
+    border: 10px solid #f5f0d0;
+}
+
+.centralizar{
+    text-align: center;
+}
