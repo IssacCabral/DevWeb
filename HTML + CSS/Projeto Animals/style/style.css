@@ -37,3 +37,7 @@ a{
 .centralizar{
     text-align: center;
 }
+
+.centralizar_tudo{
+    margin: auto;
+}
