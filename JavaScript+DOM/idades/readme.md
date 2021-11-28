@@ -7,4 +7,4 @@ Here we have an App that, according to the year of birth and the sex you select,
 <h3>Kid boy</h3>
 <img src="preview/3.png">
 <h3>Kid girl</h3>
-<img src="preview/3.png">
+<img src="preview/4.png">
