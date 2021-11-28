@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#area-cabecalho{
+    text-align: center;
+    padding: 15px;
+    background-color: #18a89f;
+    margin: 0px;
+}
+
+#area-logo{
+
+}
+
+#area-menu{
+    padding: 10px;
+}
+
+#cor-mundo{
+    color: rgb(190, 219, 60);
+}
+
+body{
+    background-color: #7b7974;
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+    background-color: white;
+}
+
+.conteudo{
+    float: left;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+/*
+**** Formatações do menu ****
+*/
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#area-cabecalho a:hover{
+    color: rgb(190, 219, 60);
+    background: rgb(255, 255, 255);
+}
+
+
+
