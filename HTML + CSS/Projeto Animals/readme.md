@@ -1,0 +1,8 @@
+In this project I dedicated myself a little more and I believe I got a better result. Still with a static design, I feel a little confident to train JavaScript
+
+ps: sorry about the Windows watermark
+
+<img src="1.png">
+<img src="2.png">
+<img src="3.png">
+<img src="4.png">
