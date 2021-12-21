@@ -1,0 +1,2 @@
+npm init --> serve para iniciar um projeto npm. fica mais fácil para gerenciar a instalação de bibliotecas 
+npm install express --save --> para baixar o express
