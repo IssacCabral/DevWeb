@@ -5,7 +5,7 @@
             <hr>
             <h1 style="color: white;">Perguntas</h1>
             <hr>
-            <a href="/perguntar" class="btn btn-success">Perguntar</a>
+            <a href="/perguntar" class="btn btn-info">Pergunte aqui</a>
             <hr>
             
             <% perguntas.forEach(pergunta => { %>
@@ -15,7 +15,7 @@
                         <h3> <%= pergunta.titulo %> </h3>
                     </div>
                     <div class="card-footer">
-                        <a href="pergunta/<%= pergunta.id %> "> <button class="btn btn-primary">Responder</button> </a>
+                        <a href="pergunta/<%= pergunta.id %> "> <button class="btn btn-secondary">Responder</button> </a>
                     </div>
                 </div>
             <% }) %>

@@ -3,18 +3,22 @@
     <%- include ('partials/navbar.ejs') %>
     <div class="container">
         <hr>
-        <h1 style="color:rgb(0, 0, 0);"> <%= pergunta.titulo %> </h1>
-        <p style="color: white;"> <%= pergunta.descricao %> </p>
+        <div class="card" style="background-color: rgb(182, 49, 40)">
+            <div class="card-body" style="color:rgb(255, 255, 255)">
+                <h1> <%= pergunta.titulo %> </h1>
+                <p> <%= pergunta.descricao %> </p>
+            </div>
+        </div>
         <hr>
         <form action="/responder" method="post">
-            <h3>Responda</h3>
-            <label>Resposta:</label>
+            <h3 style="color: black;">Responda</h3>
+            <label style="color: black;">Resposta:</label>
             <textarea placeholder="Digite sua resposta" class="form-control" name="corpo"></textarea><br>
             <input type="hidden" name="pergunta" value=" <%= pergunta.id %> ">
-            <button type="submit" class="btn btn-success">Responder</button>
+            <button type="submit" class="btn btn-secondary">Responder</button>
         </form>
         <hr>
-        <h3>Respostas</h3>
+        <h3 style="color: black;">Respostas</h3>
         <hr>
         <% respostas.forEach(resposta => { %>
             <br>
