@@ -9,7 +9,17 @@ const app = express() // Iniciando o Express
  * para qual URL essa rota aponta, e o que essa rota faz
  * a URL "/" significa a página inicial do meu aplicativo
  */
-app.get("/")
+app.get("/", function(req, res){
+    res.send("Seja Bem vindo ao meu servidor!")
+})
+
+app.get("/blog", function(req, res){
+    res.send("Bem vindo ao meu blog")
+})
+
+app.get("/canal/youtube", function(req, res){
+    res.send("Bem vindo ao meu canal")
+})
 
 
 // Abrir o servidor é sempre a última coisa que a gente faz

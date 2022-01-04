@@ -13,7 +13,8 @@
 
 
 // Como esse módulo faz parte do núcleo do node, não precisamos digitar diretório
-// só precisamos digitar o nome do módulo // Não vai ser essa biblioteca que utilizaremos pois ela é muito simples
+// só precisamos digitar o nome do módulo 
+// Não vai ser essa biblioteca que utilizaremos pois ela é muito simples
 
 
 const http = require("http") // carregando o módulo http do node nesta variável

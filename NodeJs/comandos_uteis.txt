@@ -1,0 +1,7 @@
+npm init --> serve para iniciar um projeto npm. fica mais fácil para gerenciar a instalação de bibliotecas 
+npm install express --save --> para baixar o express
+npm install nodemon -g --> instala o nodemon globalmente para não ter que instalar toda vez
+nodemon nome_arquivo.js --> rodar o projeto com o nodemon
+npm install ejs --save --> baixar o ejs
+npm install body-parser
+npm install sequelize --save
